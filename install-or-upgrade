@@ -1,9 +1,11 @@
 https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#control-node-requirements
 
+-- create dir and add to path
+mkdir -p /home/ubuntu/.local/bin
+export PATH=$PATH:/home/ubuntu/.local/bin
+
 -- setup python
 python3 get-pip.py --user
-
--- set path
 
 -- isntall ansible
 python3 -m pip install --user ansible
