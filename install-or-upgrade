@@ -1,0 +1,12 @@
+https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#control-node-requirements
+
+-- setup python
+python3 get-pip.py --user
+
+-- set path
+
+-- isntall ansible
+python3 -m pip install --user ansible
+
+-- check version
+ansible --version
